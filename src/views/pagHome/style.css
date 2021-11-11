@@ -1,0 +1,35 @@
+.homeHeading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .newContact {
+    border: none;
+    background-color: #808080;
+    border-radius: 8px;
+    height: 32px;
+    margin-left: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .homeContainer {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+  }
+  
+  .contact {
+    margin-top: 50px;
+    width: 42vw;
+    display: flex;
+  }
+  
+  .contact p {
+    width: 33%;
+  }
