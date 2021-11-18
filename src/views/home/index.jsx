@@ -43,9 +43,9 @@ export default function Home() {
   return (
     <div className="container">
       <div className="heading">
-        <h3>Lista de Contatos</h3>
+        <h3 data-testid="teste_home">Lista de Contatos</h3>
         <Link to="/novoContato">
-          <button name = "botao" className="btn buttonPrimary">Novo Contato</button>
+          <button name = "botao" className="btn buttonPrimary" data-testid="teste_button_home">Novo Contato</button>
         </Link>
       </div>
       <div>
