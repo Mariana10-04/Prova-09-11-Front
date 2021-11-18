@@ -48,7 +48,7 @@ export default function NewContact() {
               <input type="text" name="number" onChange={value => setNumber(value.target.value)} value={number}/>
           </label>
 
-          <button type="Enviar" value="Cadastrar">Vai caralha</button>
+          <button name="botao2" type="Enviar" value="Cadastrar">Vai caralha</button>
       </form>
     </div>
   );

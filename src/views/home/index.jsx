@@ -45,7 +45,7 @@ export default function Home() {
       <div className="heading">
         <h3>Lista de Contatos</h3>
         <Link to="/novoContato">
-          <button className="btn buttonPrimary">Novo Contato</button>
+          <button name = "botao" className="btn buttonPrimary">Novo Contato</button>
         </Link>
       </div>
       <div>
